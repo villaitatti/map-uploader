@@ -35,6 +35,8 @@ The app has been specifically created for an S3 storage. To install the componen
 
 Then, remember to update the storage from UI when uploading the folder. See the following image: 
 
+<img width="1324" alt="directFolderUploader" src="https://user-images.githubusercontent.com/8267319/196654737-57d3b87c-ca59-4714-9477-8a3d94a71376.png">
+
 ## Missing features
 
 We are still working on storing folder data during the uploading process.
