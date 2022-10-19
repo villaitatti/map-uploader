@@ -1,0 +1,29 @@
+<ol class="page-breadcrumb">
+  <li>
+    <mp-link title="Home" url="/">Home</mp-link>
+  </li>
+  <li>
+    <semantic-link title="Administration" iri='[[resolvePrefix "rsp:admin"]]'>Administration</semantic-link>
+  </li>
+  <li class="active"> Upload</li>
+</ol>
+
+<div class="page rs-fileUpload" style="  padding-bottom: 40px;">
+  
+  [[> rsp:adminPageHeader title="Folder Upload" icon="rs-icon rs-icon-image_upload"]]
+  
+  <div class="container-fluid">
+      <bs-row class="row-center">
+        <bs-col xs=12 sm=11 md=10 lg=9 class='rs-col-xl-8'>
+          <metapolis-direct-folder-uploader
+            placeholder="Drag&drop a file for upload here or click into the field to open the browser's default file selector."
+            default-storage-id="map_uploader"
+            default-folder="/"
+            default-object-kind="maps"
+          >
+          </metapolis-direct-folder-uploader>
+    
+ 				 </bs-col>   
+      </bs-row> <!--  close row -->
+  </div>
+</div>
